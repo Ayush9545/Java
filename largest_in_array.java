@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class largest_in_array {
     public static void mm(int array[]){
         int max = Integer.MIN_VALUE;
@@ -18,7 +16,7 @@ public class largest_in_array {
     }
 
     public static void main(String[] args) {
-        int marks[] = {11, 1, 0, 100};
+        int marks[] = {11, 1, 1, 100};
         mm(marks);
     }
 }
